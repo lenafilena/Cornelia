@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+@font-face {
+    font-family: "Motter Corpus Std";
+    src: url('..//asset/fonts/Motter Corpus Std Regular.otf');
+}
+
+
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: red;
+}
