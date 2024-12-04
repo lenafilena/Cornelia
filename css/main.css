@@ -5,11 +5,29 @@
     src: url('..//asset/fonts/Motter Corpus Std Regular.otf');
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+button {
+    border: none;
+    outline: none;
+}
 
 
 body {
     font-family: 'Nunito Sans', sans-serif;
     font-size: 30px;
     font-weight: 500;
-    color: red;
+
 }
