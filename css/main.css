@@ -31,3 +31,17 @@ body {
     font-weight: 500;
 
 }
+
+[class*='_container'] {
+    max-width: 88%;
+    margin: 0 auto;
+}
+
+:root {
+    --primary-green: #0B4141;
+    --primary-pink: #FFCCBC;
+}
+
+main {
+    padding-top: 82.4px;
+}
