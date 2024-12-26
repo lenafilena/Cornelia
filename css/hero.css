@@ -1,0 +1,21 @@
+.hero {
+    padding: 120px 0 290px;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero_container {}
+
+.hero_text {
+    text-align: center;
+
+}
+
+.hero_title {
+    font-family: "Motter Corpus Std";
+    font-size: 120px;
+    color: var(--primary-pink);
+    width: 65%;
+}
+
+.hero_title_black {}
