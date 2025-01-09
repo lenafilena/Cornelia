@@ -15,7 +15,28 @@
     font-family: "Motter Corpus Std";
     font-size: 120px;
     color: var(--primary-pink);
-    width: 65%;
+
 }
 
-.hero_title_black {}
+.black {
+    background: linear-gradient(180deg, #0B4141 42%, #0B1F1F 46%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: 99;
+    position: relative;
+}
+
+.hero img {
+    position: absolute;
+
+}
+
+.hero img:nth-child(2) {
+    bottom: -30px;
+    left: 60px;
+}
+
+.hero img:nth-child(3) {
+    top: 95px;
+    left: 0;
+}
