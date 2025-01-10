@@ -1,0 +1,45 @@
+.discover {
+    position: relative;
+    overflow: hidden;
+    background-color: var(--primary-pink);
+    color: white;
+    padding: 196px 0 164px;
+
+}
+
+.discover_container {
+    display: flex;
+    justify-content: center;
+}
+
+.discover_text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    text-align: center;
+    align-items: center;
+    z-index: 9;
+
+}
+
+.discover_title {
+    font-size: 80px;
+    line-height: 96px;
+    font-family: "Motter Corpus Std";
+    max-width: 70%;
+}
+
+.discover_desc {
+    max-width: 57%;
+
+}
+
+.discover_desc span {
+    font-weight: 800;
+}
+
+.discover img {
+    position: absolute;
+    bottom: -10px;
+    left: -25px;
+}
