@@ -1,0 +1,41 @@
+.circles {
+    position: relative;
+    overflow: hidden;
+    padding: 16px 0 194px;
+}
+
+.circles_container {
+    display: flex;
+    gap: 166px;
+}
+
+.circles_contant {
+    display: flex;
+    flex-direction: column;
+    margin: 134px 0 160px;
+    gap: 48px;
+    align-items: flex-start;
+}
+
+.circles_text {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    color: var(--primary-green);
+
+}
+
+.circles_title {}
+
+.circles_desk {}
+
+.circles_link {}
+
+.circles>img {
+    position: absolute;
+    top: 0;
+}
+
+.circles>img:nth-child(2) {}
+
+.circles>img:nth-child(3) {}
