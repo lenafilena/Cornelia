@@ -1,0 +1,68 @@
+.appstore {
+    position: absolute;
+    overflow: hidden;
+    padding: 93px 0 93px;
+}
+
+.appstore_container {
+    z-index: 99;
+    position: relative;
+}
+
+.appstore_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 40%;
+    gap: 32px;
+
+}
+
+.appstore_contant {
+    color: var(--primary-green);
+    padding-bottom: 45px;
+
+}
+
+.appstore_text {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+
+}
+
+.appstore_title {}
+
+.appstore_desk {
+    font-size: 25px;
+}
+
+.appstore_desk span {
+    font-weight: 700;
+}
+
+.appstore_link {
+    font-size: 18px;
+    padding: 14.5px 31px;
+    color: var(--primary-green);
+    border: 2px solid var(--primary-green);
+    border-radius: 100px;
+    font-weight: 700;
+}
+
+.appstore>img {
+    position: absolute;
+}
+
+.appstore>img:nth-child(2) {
+    right: 0;
+    bottom: 0;
+    z-index: 8;
+}
+
+.appstore>img:nth-child(3) {
+    width: 2451px;
+    height: 1019px;
+    right: -700px;
+    bottom: 0;
+}

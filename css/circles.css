@@ -1,16 +1,18 @@
 .circles {
-    position: relative;
+
     overflow: hidden;
     padding: 16px 0 194px;
 }
 
 .circles_container {
-    display: flex;
-    gap: 166px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 150px;
 }
 
 .circles_contant {
     display: flex;
+
     flex-direction: column;
     margin: 134px 0 160px;
     gap: 48px;
@@ -27,15 +29,19 @@
 
 .circles_title {}
 
-.circles_desk {}
-
-.circles_link {}
-
-.circles>img {
-    position: absolute;
-    top: 0;
+.circles_desk {
+    font-size: 25px;
 }
 
-.circles>img:nth-child(2) {}
+.circles_link {
+    font-size: 18px;
+    padding: 14.5px 31px;
+    color: var(--primary-green);
+    border: 2px solid var(--primary-green);
+    border-radius: 100px;
+    font-weight: 700;
+}
 
-.circles>img:nth-child(3) {}
+.confettis2 {
+    position: absolute;
+}
