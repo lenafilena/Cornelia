@@ -5,6 +5,12 @@
     src: url('..//asset/fonts/Motter Corpus Std Regular.otf');
 }
 
+@media (prefers-color-scheme: dark) {
+    path {
+        fill: white;
+    }
+}
+
 * {
     margin: 0;
     padding: 0;
